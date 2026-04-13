@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll 13 — Final Transmission</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      background: #0a0a0f;
+      color: #c8c8d0;
+      font-family: 'Courier New', monospace;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      max-width: 680px;
+      padding: 40px 32px;
+      border: 1px solid #1e1e2e;
+      background: #0d0d18;
+    }
+    .stamp {
+      color: #cc2222;
+      font-size: 11px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      border: 1px solid #cc2222;
+      display: inline-block;
+      padding: 2px 10px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 13px;
+      letter-spacing: 2px;
+      color: #888;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    h2 {
+      font-size: 22px;
+      color: #e0e0e8;
+      margin-bottom: 28px;
+      font-weight: normal;
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid #1e1e2e;
+      margin: 24px 0;
+    }
+    .log-entry {
+      font-size: 13px;
+      line-height: 2;
+      color: #8888a0;
+    }
+    .log-entry span { color: #5599cc; }
+    .flag-box {
+      margin-top: 32px;
+      padding: 20px 24px;
+      background: #0a1a0a;
+      border-left: 3px solid #22cc44;
+    }
+    .flag-label {
+      font-size: 10px;
+      letter-spacing: 3px;
+      color: #22cc44;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .flag {
+      font-size: 18px;
+      color: #44ff66;
+      letter-spacing: 1px;
+    }
+    .footer {
+      margin-top: 32px;
+      font-size: 11px;
+      color: #333344;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="stamp">&#9632; Classified &#9632;</div>
+
+    <h1>ANBU — Operation KARASU</h1>
+    <h2>Scroll 13 / Final Transmission</h2>
+
+    <hr class="divider">
+
+    <div class="log-entry">
+      <span>[Agent]</span> You found me.<br>
+      <span>[Location]</span> Shibuya — Node 7-G<br>
+      <span>[Timestamp]</span> 2026-03-14 / 03:47:22 UTC<br>
+      <span>[Status]</span> Signal lost. Archive intact.<br>
+      <span>[Note]</span> The Sharingan sees all — but only if you know where to look.
+    </div>
+
+    <hr class="divider">
+
+    <div class="flag-box">
+      <div class="flag-label">&#9632; Recovered Signal &#9632;</div>
+      <div class="flag">AISCTF{4nbu_4g3nt_gh0st_s1gn4l_f0und!}</div>
+    </div>
+
+    <div class="footer">
+      "Those who break the rules are trash —<br>
+      but those who abandon their comrades are worse than trash."
+    </div>
+  </div>
+</body>
+</html>
